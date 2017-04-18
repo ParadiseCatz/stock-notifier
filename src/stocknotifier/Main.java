@@ -21,7 +21,7 @@ public class Main extends Application {
 //
 //        FirebaseApp.initializeApp(options);
 
-        Parent login = FXMLLoader.load(getClass().getResource("login.fxml"));
+        Parent login = FXMLLoader.load(getClass().getResource("menu.fxml"));
         primaryStage.setTitle("Stock Notifier");
         primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(login));
